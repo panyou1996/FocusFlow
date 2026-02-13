@@ -11,12 +11,14 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.panyou.focusflow.ui.home.HomeScreen
 import com.panyou.focusflow.ui.home.HomeViewModel
+import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel
 import com.panyou.focusflow.ui.theme.FocusFlowTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val homeViewModel: HomeViewModel by viewModels()
+    private val detailViewModel: TaskDetailViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +29,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    HomeScreen(viewModel = homeViewModel)
+                    HomeScreen(
+                        viewModel = homeViewModel,
+                        detailViewModel = detailViewModel
+                    )
                 }
             }
         }

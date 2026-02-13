@@ -36,7 +36,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.panyou.focusflow.data.local.entity.Task
 import com.panyou.focusflow.ui.taskdetail.TaskDetailSheet
@@ -46,6 +45,7 @@ import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel
 @Composable
 fun HomeScreen(
     viewModel: HomeViewModel,
+    detailViewModel: TaskDetailViewModel,
     modifier: Modifier = Modifier
 ) {
     val tasks by viewModel.tasks.collectAsStateWithLifecycle()
@@ -56,7 +56,6 @@ fun HomeScreen(
     var selectedTaskId by remember { mutableStateOf<String?>(null) }
 
     if (selectedTaskId != null) {
-        val detailViewModel = hiltViewModel<TaskDetailViewModel>()
         TaskDetailSheet(
             taskId = selectedTaskId!!,
             viewModel = detailViewModel,

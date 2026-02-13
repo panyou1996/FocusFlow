@@ -47,7 +47,6 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.panyou.focusflow.data.local.entity.Subtask
-import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -59,8 +58,6 @@ fun TaskDetailSheet(
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     
-    var isEditingNote by remember { mutableStateOf(false) }
-
     LaunchedEffect(taskId) {
         viewModel.loadTask(taskId)
     }
@@ -175,43 +172,18 @@ fun TaskDetailSheet(
 
                 Spacer(modifier = Modifier.height(16.dp))
 
-                // Markdown Note
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text(
-                        text = "Notes",
-                        style = MaterialTheme.typography.titleMedium,
-                        color = MaterialTheme.colorScheme.primary
-                    )
-                    TextButton(onClick = { isEditingNote = !isEditingNote }) {
-                        Text(if (isEditingNote) "Done" else "Edit")
-                    }
-                }
-
-                if (isEditingNote) {
-                    OutlinedTextField(
-                        value = task.noteContent ?: "",
-                        onValueChange = { viewModel.updateNote(it) },
-                        modifier = Modifier.fillMaxWidth().height(150.dp),
-                        placeholder = { Text("Add details (Markdown supported)") }
-                    )
-                } else {
-                    Card(
-                        modifier = Modifier.fillMaxWidth().height(150.dp),
-                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f))
-                    ) {
-                        Box(modifier = Modifier.padding(12.dp)) {
-                            MarkdownText(
-                                markdown = task.noteContent ?: "_No notes yet_",
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurface
-                            )
-                        }
-                    }
-                }
+                // Simple Note Text Field
+                Text(
+                    text = "Notes",
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.primary
+                )
+                OutlinedTextField(
+                    value = task.noteContent ?: "",
+                    onValueChange = { viewModel.updateNote(it) },
+                    modifier = Modifier.fillMaxWidth().height(150.dp),
+                    placeholder = { Text("Add details") }
+                )
             }
         }
     }
