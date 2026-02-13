@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-61:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-69:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/182550ba4b5bbddd835447a2bab6ba0b/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/5b14b48ee22ae9838fd302afdb7a3389/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

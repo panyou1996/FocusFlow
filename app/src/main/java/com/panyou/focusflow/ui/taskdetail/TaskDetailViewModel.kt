@@ -24,11 +24,16 @@ class TaskDetailViewModel @Inject constructor(
 ) : ViewModel() {
 
     // --- Gemini AI Setup ---
-    // In a real app, inject this via Hilt to make it testable
-    private val generativeModel = GenerativeModel(
-        modelName = "gemini-pro",
-        apiKey = BuildConfig.geminiApiKey // Safe access via Secrets Plugin
-    )
+    private val generativeModel by lazy {
+        try {
+            GenerativeModel(
+                modelName = "gemini-pro",
+                apiKey = BuildConfig.geminiApiKey
+            )
+        } catch (e: Exception) {
+            null
+        }
+    }
 
     private val _taskId = MutableStateFlow<String?>(null)
 
@@ -89,12 +94,13 @@ class TaskDetailViewModel @Inject constructor(
     // Real AI Logic using Gemini SDK
     fun generateSubtasksWithAI() {
         val currentTask = _uiState.value.task ?: return
+        val model = generativeModel ?: return // Guard against init error
         _uiState.value = _uiState.value.copy(isGenerating = true)
         
         viewModelScope.launch {
             try {
                 val prompt = "Break down this task into 3-5 actionable subtasks (short titles only, no numbering): ${currentTask.title}"
-                val response = generativeModel.generateContent(prompt)
+                val response = model.generateContent(prompt)
                 
                 val rawText = response.text ?: ""
                 val lines = rawText.lines()

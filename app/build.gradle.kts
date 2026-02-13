@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
-    alias(libs.plugins.secrets) // Added
+    alias(libs.plugins.secrets)
 }
 
 android {
@@ -41,7 +41,7 @@ android {
     }
     buildFeatures {
         compose = true
-        buildConfig = true // Enable BuildConfig for Secrets
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.11"
@@ -54,7 +54,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.runtime.compose)
@@ -65,24 +64,19 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material.icons.extended)
+    implementation(libs.google.material) // For XML Theme support
     
-    // AI
     implementation(libs.google.generativeai) 
-    
-    // Markdown
-    implementation(libs.compose.markdown) // Added
+    implementation(libs.compose.markdown)
 
-    // Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
     
-    // Hilt
     implementation(libs.hilt.android)
-    ksp(libs.hilt.android.compiler)
+    ksp(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
     
-    // Navigation
     implementation(libs.androidx.navigation.compose)
 
     testImplementation(libs.junit)
