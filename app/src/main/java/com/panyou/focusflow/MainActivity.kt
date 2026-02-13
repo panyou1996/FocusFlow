@@ -3,37 +3,21 @@ package com.panyou.focusflow
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Text
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.panyou.focusflow.ui.home.HomeScreen
-import com.panyou.focusflow.ui.home.HomeViewModel
-import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel
-import com.panyou.focusflow.ui.theme.FocusFlowTheme
-import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
+// @AndroidEntryPoint // Disable Hilt for diagnostic
 class MainActivity : ComponentActivity() {
-    private val homeViewModel: HomeViewModel by viewModels()
-    private val detailViewModel: TaskDetailViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        android.util.Log.d("FocusFlow", "MainActivity onCreate started")
-        enableEdgeToEdge()
         setContent {
-            FocusFlowTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    HomeScreen(
-                        viewModel = homeViewModel,
-                        detailViewModel = detailViewModel
-                    )
+            MaterialTheme {
+                Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                    Text(text = "FocusFlow Diagnostic Mode")
                 }
             }
         }

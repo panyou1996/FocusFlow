@@ -367,10 +367,6 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectMainActivity(MainActivity mainActivity) {
-    }
-
-    @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
       return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
