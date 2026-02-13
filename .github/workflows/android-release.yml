@@ -25,8 +25,11 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build Release APK
-        run: ./gradlew assembleRelease
+      - name: Create local.properties
+        run: touch local.properties
+
+      - name: Build APKs
+        run: ./gradlew assembleDebug assembleRelease
 
       # If you have signing configs set up in build.gradle with secrets, this will produce a signed APK.
       # Otherwise, it might produce an unsigned one.
@@ -51,7 +54,9 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
-          files: app/build/outputs/apk/release/*.apk
+          files: |
+            app/build/outputs/apk/release/*.apk
+            app/build/outputs/apk/debug/*.apk
           draft: false
           prerelease: false
           generate_release_notes: true

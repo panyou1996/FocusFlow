@@ -24,7 +24,7 @@
   <manifestPlaceholders>
     <placeholder
         name="geminiApiKey"
-        value="YOUR_API_KEY_HERE" />
+        value="AIzaSyD_TEST_KEY_PLACEHOLDER" />
   </manifestPlaceholders>
   <artifact
       classOutputs="build/intermediates/javac/release/compileReleaseJavaWithJavac/classes:build/tmp/kotlin-classes/release:build/kotlinToolingMetadata:build/intermediates/hilt/component_classes/release:build/generated/ksp/release/resources:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/processReleaseResources/R.jar"
