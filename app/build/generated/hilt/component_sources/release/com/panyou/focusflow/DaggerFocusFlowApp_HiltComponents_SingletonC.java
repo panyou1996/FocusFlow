@@ -367,6 +367,10 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
     }
 
     @Override
+    public void injectMainActivity(MainActivity mainActivity) {
+    }
+
+    @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
       return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
@@ -445,15 +449,15 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_panyou_focusflow_ui_home_HomeViewModel = "com.panyou.focusflow.ui.home.HomeViewModel";
-
       static String com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel = "com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel";
 
-      @KeepFieldType
-      HomeViewModel com_panyou_focusflow_ui_home_HomeViewModel2;
+      static String com_panyou_focusflow_ui_home_HomeViewModel = "com.panyou.focusflow.ui.home.HomeViewModel";
 
       @KeepFieldType
       TaskDetailViewModel com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel2;
+
+      @KeepFieldType
+      HomeViewModel com_panyou_focusflow_ui_home_HomeViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
