@@ -2,8 +2,10 @@ package com.panyou.focusflow.data.repository
 
 import com.panyou.focusflow.data.local.dao.SubtaskDao
 import com.panyou.focusflow.data.local.dao.TaskDao
+import com.panyou.focusflow.data.local.dao.TaskListDao
 import com.panyou.focusflow.data.local.entity.Subtask
 import com.panyou.focusflow.data.local.entity.Task
+import com.panyou.focusflow.data.local.entity.TaskList
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -11,9 +13,29 @@ import javax.inject.Singleton
 @Singleton
 class TaskRepository @Inject constructor(
     private val taskDao: TaskDao,
-    private val subtaskDao: SubtaskDao
+    private val subtaskDao: SubtaskDao,
+    private val taskListDao: TaskListDao // Added
 ) {
-    // ... Task methods ...
+    // --- List methods ---
+    fun getAllLists(): Flow<List<TaskList>> = taskListDao.getAllLists()
+    
+    suspend fun insertList(list: TaskList) = taskListDao.insertList(list)
+    
+    suspend fun ensureDefaultListExists() {
+        val defaultId = "default-inbox-id"
+        val existing = taskListDao.getListById(defaultId)
+        if (existing == null) {
+            taskListDao.insertList(
+                TaskList(
+                    id = defaultId,
+                    title = "Inbox",
+                    sortOrder = 0
+                )
+            )
+        }
+    }
+
+    // --- Task methods ---
     fun getTasksForList(listId: String): Flow<List<Task>> = taskDao.getTasksByList(listId)
 
     fun getImportantTasks(): Flow<List<Task>> = taskDao.getImportantTasks()

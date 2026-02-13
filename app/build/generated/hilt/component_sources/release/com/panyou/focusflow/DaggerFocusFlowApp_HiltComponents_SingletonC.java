@@ -9,10 +9,12 @@ import androidx.lifecycle.ViewModel;
 import com.panyou.focusflow.data.local.AppDatabase;
 import com.panyou.focusflow.data.local.dao.SubtaskDao;
 import com.panyou.focusflow.data.local.dao.TaskDao;
+import com.panyou.focusflow.data.local.dao.TaskListDao;
 import com.panyou.focusflow.data.repository.TaskRepository;
 import com.panyou.focusflow.di.DatabaseModule_ProvideAppDatabaseFactory;
 import com.panyou.focusflow.di.DatabaseModule_ProvideSubtaskDaoFactory;
 import com.panyou.focusflow.di.DatabaseModule_ProvideTaskDaoFactory;
+import com.panyou.focusflow.di.DatabaseModule_ProvideTaskListDaoFactory;
 import com.panyou.focusflow.ui.home.HomeViewModel;
 import com.panyou.focusflow.ui.home.HomeViewModel_HiltModules;
 import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel;
@@ -585,6 +587,10 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
       return DatabaseModule_ProvideSubtaskDaoFactory.provideSubtaskDao(provideAppDatabaseProvider.get());
     }
 
+    private TaskListDao taskListDao() {
+      return DatabaseModule_ProvideTaskListDaoFactory.provideTaskListDao(provideAppDatabaseProvider.get());
+    }
+
     @SuppressWarnings("unchecked")
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.provideAppDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<AppDatabase>(singletonCImpl, 1));
@@ -625,7 +631,7 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.panyou.focusflow.data.repository.TaskRepository 
-          return (T) new TaskRepository(singletonCImpl.taskDao(), singletonCImpl.subtaskDao());
+          return (T) new TaskRepository(singletonCImpl.taskDao(), singletonCImpl.subtaskDao(), singletonCImpl.taskListDao());
 
           case 1: // com.panyou.focusflow.data.local.AppDatabase 
           return (T) DatabaseModule_ProvideAppDatabaseFactory.provideAppDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));

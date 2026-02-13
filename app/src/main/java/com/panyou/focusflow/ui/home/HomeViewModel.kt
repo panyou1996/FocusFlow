@@ -17,6 +17,13 @@ class HomeViewModel @Inject constructor(
 
     private val _currentListId = MutableStateFlow("default-inbox-id")
 
+    init {
+        // Critical: Ensure the default list exists to prevent FK constraint crash
+        viewModelScope.launch {
+            taskRepository.ensureDefaultListExists()
+        }
+    }
+
     @kotlinx.coroutines.ExperimentalCoroutinesApi
     val tasks: StateFlow<List<Task>> = _currentListId
         .flatMapLatest { listId ->
@@ -30,6 +37,9 @@ class HomeViewModel @Inject constructor(
 
     fun addTask(title: String) {
         viewModelScope.launch {
+            // Re-ensure just in case, though init should handle it
+            taskRepository.ensureDefaultListExists()
+            
             val newTask = Task(
                 id = UUID.randomUUID().toString(),
                 listId = _currentListId.value,
