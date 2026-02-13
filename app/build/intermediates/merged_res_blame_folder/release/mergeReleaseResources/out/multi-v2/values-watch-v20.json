@@ -4,7 +4,7 @@
             "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-66:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/b727413b5f3a43de719a7b34db3908d4/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/576c82750cc84da3697652127792cf46/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

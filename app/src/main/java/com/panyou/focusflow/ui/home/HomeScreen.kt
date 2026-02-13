@@ -1,37 +1,47 @@
 package com.panyou.focusflow.ui.home
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.panyou.focusflow.data.local.entity.Task
+import com.panyou.focusflow.ui.taskdetail.TaskDetailSheet
+import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     viewModel: HomeViewModel,
+    detailViewModel: TaskDetailViewModel,
     modifier: Modifier = Modifier
 ) {
+    // Revert to stable collectAsState
     val tasks by viewModel.tasks.collectAsState()
     val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
+    
+    var selectedTaskId by remember { mutableStateOf<String?>(null) }
+
+    if (selectedTaskId != null) {
+        TaskDetailSheet(
+            taskId = selectedTaskId!!,
+            viewModel = detailViewModel,
+            onDismiss = { selectedTaskId = null }
+        )
+    }
 
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
-            // MD3 Expressive: Use LargeTopAppBar for strong visual hierarchy
             LargeTopAppBar(
                 title = {
                     Text(
@@ -40,52 +50,45 @@ fun HomeScreen(
                         fontWeight = FontWeight.Bold
                     )
                 },
-                scrollBehavior = scrollBehavior,
-                colors = TopAppBarDefaults.largeTopAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.background,
-                    scrolledContainerColor = MaterialTheme.colorScheme.surfaceColorAtElevation(3.dp)
-                )
+                scrollBehavior = scrollBehavior
             )
         },
         floatingActionButton = {
-            // MD3 Expressive: Large FAB with distinctive shape
             LargeFloatingActionButton(
-                onClick = { /* Will add logic in next step */ },
-                shape = RoundedCornerShape(28.dp), // Expressive corner radius
-                containerColor = MaterialTheme.colorScheme.primaryContainer,
-                contentColor = MaterialTheme.colorScheme.onPrimaryContainer
+                onClick = { viewModel.addTask("New Task ${tasks.size + 1}") },
+                shape = RoundedCornerShape(28.dp)
             ) {
-                Icon(
-                    imageVector = Icons.Default.Add,
-                    contentDescription = "Add Task",
-                    modifier = Modifier.fillMaxSize(0.4f)
-                )
+                Icon(Icons.Default.Add, contentDescription = "Add Task")
             }
         }
     ) { paddingValues ->
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(paddingValues),
-            contentAlignment = Alignment.TopStart
+                .padding(paddingValues)
         ) {
             if (tasks.isEmpty()) {
                 Text(
-                    text = "No tasks yet. Tap + to begin.",
-                    style = MaterialTheme.typography.bodyLarge,
-                    modifier = Modifier.align(Alignment.Center).padding(16.dp)
+                    text = "Hilt & Room Active. No tasks yet.",
+                    modifier = Modifier.align(Alignment.Center)
                 )
             } else {
-                LazyColumn(
-                    modifier = Modifier.fillMaxSize()
-                ) {
+                LazyColumn(modifier = Modifier.fillMaxSize()) {
                     items(tasks, key = { it.id }) { task ->
-                        // Keeping TaskItem extremely simple for now to verify stability
                         ListItem(
                             headlineContent = { Text(task.title) },
                             leadingContent = {
-                                Checkbox(checked = task.isCompleted, onCheckedChange = {})
-                            }
+                                Checkbox(
+                                    checked = task.isCompleted,
+                                    onCheckedChange = { viewModel.onTaskCheckedChange(task, it) }
+                                )
+                            },
+                            trailingContent = {
+                                IconButton(onClick = { viewModel.onTaskDelete(task) }) {
+                                    Icon(Icons.Default.Delete, contentDescription = "Delete", tint = MaterialTheme.colorScheme.error)
+                                }
+                            },
+                            modifier = Modifier.padding(horizontal = 8.dp)
                         )
                     }
                 }
