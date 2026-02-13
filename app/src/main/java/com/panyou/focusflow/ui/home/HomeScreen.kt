@@ -2,11 +2,14 @@ package com.panyou.focusflow.ui.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -14,6 +17,7 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Checkbox
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -36,6 +40,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.panyou.focusflow.data.local.entity.Task
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     viewModel: HomeViewModel,
@@ -109,16 +114,18 @@ fun HomeScreen(
                     modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 32.dp)
                 )
             } else {
-                tasks.forEach { task ->
-                    TaskItem(
-                        task = task,
-                        onCheckedChange = { isChecked ->
-                            viewModel.onTaskCheckedChange(task, isChecked)
-                        },
-                        onDelete = {
-                            viewModel.onTaskDelete(task)
-                        }
-                    )
+                LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    items(items = tasks, key = { it.id }) { task ->
+                        TaskItem(
+                            task = task,
+                            onCheckedChange = { isChecked ->
+                                viewModel.onTaskCheckedChange(task, isChecked)
+                            },
+                            onDelete = {
+                                viewModel.onTaskDelete(task)
+                            }
+                        )
+                    }
                 }
             }
         }
