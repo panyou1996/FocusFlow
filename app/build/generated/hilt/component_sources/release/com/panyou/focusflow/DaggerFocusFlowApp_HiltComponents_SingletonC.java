@@ -8,12 +8,16 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
 import com.panyou.focusflow.data.local.AppDatabase;
+import com.panyou.focusflow.data.local.dao.SubtaskDao;
 import com.panyou.focusflow.data.local.dao.TaskDao;
 import com.panyou.focusflow.data.repository.TaskRepository;
 import com.panyou.focusflow.di.DatabaseModule_ProvideAppDatabaseFactory;
+import com.panyou.focusflow.di.DatabaseModule_ProvideSubtaskDaoFactory;
 import com.panyou.focusflow.di.DatabaseModule_ProvideTaskDaoFactory;
 import com.panyou.focusflow.ui.home.HomeViewModel;
 import com.panyou.focusflow.ui.home.HomeViewModel_HiltModules;
+import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel;
+import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel_HiltModules;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
@@ -34,6 +38,7 @@ import dagger.internal.DoubleCheck;
 import dagger.internal.IdentifierNameString;
 import dagger.internal.KeepFieldType;
 import dagger.internal.LazyClassKeyMap;
+import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
 import dagger.internal.Provider;
 import java.util.Collections;
@@ -368,7 +373,7 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
 
     @Override
     public Map<Class<?>, Boolean> getViewModelKeys() {
-      return LazyClassKeyMap.<Boolean>of(Collections.<String, Boolean>singletonMap(LazyClassKeyProvider.com_panyou_focusflow_ui_home_HomeViewModel, HomeViewModel_HiltModules.KeyModule.provide()));
+      return LazyClassKeyMap.<Boolean>of(MapBuilder.<String, Boolean>newMapBuilder(2).put(LazyClassKeyProvider.com_panyou_focusflow_ui_home_HomeViewModel, HomeViewModel_HiltModules.KeyModule.provide()).put(LazyClassKeyProvider.com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel, TaskDetailViewModel_HiltModules.KeyModule.provide()).build());
     }
 
     @Override
@@ -388,7 +393,12 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
+      static String com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel = "com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel";
+
       static String com_panyou_focusflow_ui_home_HomeViewModel = "com.panyou.focusflow.ui.home.HomeViewModel";
+
+      @KeepFieldType
+      TaskDetailViewModel com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel2;
 
       @KeepFieldType
       HomeViewModel com_panyou_focusflow_ui_home_HomeViewModel2;
@@ -404,6 +414,8 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
 
     private Provider<HomeViewModel> homeViewModelProvider;
 
+    private Provider<TaskDetailViewModel> taskDetailViewModelProvider;
+
     private ViewModelCImpl(SingletonCImpl singletonCImpl,
         ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam,
         ViewModelLifecycle viewModelLifecycleParam) {
@@ -418,11 +430,12 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
     private void initialize(final SavedStateHandle savedStateHandleParam,
         final ViewModelLifecycle viewModelLifecycleParam) {
       this.homeViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
+      this.taskDetailViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
     }
 
     @Override
     public Map<Class<?>, javax.inject.Provider<ViewModel>> getHiltViewModelMap() {
-      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(Collections.<String, javax.inject.Provider<ViewModel>>singletonMap(LazyClassKeyProvider.com_panyou_focusflow_ui_home_HomeViewModel, ((Provider) homeViewModelProvider)));
+      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(MapBuilder.<String, javax.inject.Provider<ViewModel>>newMapBuilder(2).put(LazyClassKeyProvider.com_panyou_focusflow_ui_home_HomeViewModel, ((Provider) homeViewModelProvider)).put(LazyClassKeyProvider.com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel, ((Provider) taskDetailViewModelProvider)).build());
     }
 
     @Override
@@ -434,8 +447,13 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
     private static final class LazyClassKeyProvider {
       static String com_panyou_focusflow_ui_home_HomeViewModel = "com.panyou.focusflow.ui.home.HomeViewModel";
 
+      static String com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel = "com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel";
+
       @KeepFieldType
       HomeViewModel com_panyou_focusflow_ui_home_HomeViewModel2;
+
+      @KeepFieldType
+      TaskDetailViewModel com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -461,6 +479,9 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
         switch (id) {
           case 0: // com.panyou.focusflow.ui.home.HomeViewModel 
           return (T) new HomeViewModel(singletonCImpl.taskRepositoryProvider.get());
+
+          case 1: // com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel 
+          return (T) new TaskDetailViewModel(singletonCImpl.taskRepositoryProvider.get());
 
           default: throw new AssertionError(id);
         }
@@ -556,6 +577,10 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
       return DatabaseModule_ProvideTaskDaoFactory.provideTaskDao(provideAppDatabaseProvider.get());
     }
 
+    private SubtaskDao subtaskDao() {
+      return DatabaseModule_ProvideSubtaskDaoFactory.provideSubtaskDao(provideAppDatabaseProvider.get());
+    }
+
     @SuppressWarnings("unchecked")
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.provideAppDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<AppDatabase>(singletonCImpl, 1));
@@ -596,7 +621,7 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.panyou.focusflow.data.repository.TaskRepository 
-          return (T) new TaskRepository(singletonCImpl.taskDao());
+          return (T) new TaskRepository(singletonCImpl.taskDao(), singletonCImpl.subtaskDao());
 
           case 1: // com.panyou.focusflow.data.local.AppDatabase 
           return (T) DatabaseModule_ProvideAppDatabaseFactory.provideAppDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));

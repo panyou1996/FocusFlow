@@ -3,6 +3,7 @@ package com.panyou.focusflow.di
 import android.content.Context
 import androidx.room.Room
 import com.panyou.focusflow.data.local.AppDatabase
+import com.panyou.focusflow.data.local.dao.SubtaskDao
 import com.panyou.focusflow.data.local.dao.TaskDao
 import com.panyou.focusflow.data.local.dao.TaskListDao
 import dagger.Module
@@ -25,7 +26,9 @@ object DatabaseModule {
             context,
             AppDatabase::class.java,
             "focus_flow_db"
-        ).fallbackToDestructiveMigration().build()
+        )
+        .fallbackToDestructiveMigration() // For dev simplicity
+        .build()
     }
 
     @Provides
@@ -33,4 +36,7 @@ object DatabaseModule {
 
     @Provides
     fun provideTaskDao(db: AppDatabase): TaskDao = db.taskDao()
+
+    @Provides
+    fun provideSubtaskDao(db: AppDatabase): SubtaskDao = db.subtaskDao()
 }

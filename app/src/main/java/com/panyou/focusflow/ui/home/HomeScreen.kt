@@ -1,8 +1,6 @@
 package com.panyou.focusflow.ui.home
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -25,6 +23,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
@@ -37,8 +36,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.panyou.focusflow.data.local.entity.Task
+import com.panyou.focusflow.ui.taskdetail.TaskDetailSheet
+import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -49,6 +51,18 @@ fun HomeScreen(
     val tasks by viewModel.tasks.collectAsStateWithLifecycle()
     var showAddTask by remember { mutableStateOf(false) }
     var newTaskTitle by remember { mutableStateOf("") }
+    
+    // Task Detail State
+    var selectedTaskId by remember { mutableStateOf<String?>(null) }
+
+    if (selectedTaskId != null) {
+        val detailViewModel = hiltViewModel<TaskDetailViewModel>()
+        TaskDetailSheet(
+            taskId = selectedTaskId!!,
+            viewModel = detailViewModel,
+            onDismiss = { selectedTaskId = null }
+        )
+    }
 
     Scaffold(
         topBar = {
@@ -85,7 +99,11 @@ fun HomeScreen(
                             value = newTaskTitle,
                             onValueChange = { newTaskTitle = it },
                             label = { Text("Task Title") },
-                            modifier = Modifier.fillMaxWidth()
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = TextFieldDefaults.colors(
+                                focusedContainerColor = Color.Transparent,
+                                unfocusedContainerColor = Color.Transparent
+                            )
                         )
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -123,7 +141,8 @@ fun HomeScreen(
                             },
                             onDelete = {
                                 viewModel.onTaskDelete(task)
-                            }
+                            },
+                            onClick = { selectedTaskId = task.id }
                         )
                     }
                 }
@@ -132,13 +151,16 @@ fun HomeScreen(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TaskItem(
     task: Task,
     onCheckedChange: (Boolean) -> Unit,
-    onDelete: () -> Unit
+    onDelete: () -> Unit,
+    onClick: () -> Unit
 ) {
     Card(
+        onClick = onClick,
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(

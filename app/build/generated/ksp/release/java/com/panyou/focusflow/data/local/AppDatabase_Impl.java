@@ -11,6 +11,8 @@ import androidx.room.util.DBUtil;
 import androidx.room.util.TableInfo;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
+import com.panyou.focusflow.data.local.dao.SubtaskDao;
+import com.panyou.focusflow.data.local.dao.SubtaskDao_Impl;
 import com.panyou.focusflow.data.local.dao.TaskDao;
 import com.panyou.focusflow.data.local.dao.TaskDao_Impl;
 import com.panyou.focusflow.data.local.dao.TaskListDao;
@@ -35,10 +37,12 @@ public final class AppDatabase_Impl extends AppDatabase {
 
   private volatile TaskDao _taskDao;
 
+  private volatile SubtaskDao _subtaskDao;
+
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `task_lists` (`id` TEXT NOT NULL, `title` TEXT NOT NULL, `iconName` TEXT, `colorHex` TEXT, `sortOrder` INTEGER NOT NULL, `createdAt` INTEGER NOT NULL, `updatedAt` INTEGER NOT NULL, `isDeleted` INTEGER NOT NULL, PRIMARY KEY(`id`))");
@@ -212,6 +216,7 @@ public final class AppDatabase_Impl extends AppDatabase {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(TaskListDao.class, TaskListDao_Impl.getRequiredConverters());
     _typeConvertersMap.put(TaskDao.class, TaskDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(SubtaskDao.class, SubtaskDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -254,6 +259,20 @@ public final class AppDatabase_Impl extends AppDatabase {
           _taskDao = new TaskDao_Impl(this);
         }
         return _taskDao;
+      }
+    }
+  }
+
+  @Override
+  public SubtaskDao subtaskDao() {
+    if (_subtaskDao != null) {
+      return _subtaskDao;
+    } else {
+      synchronized(this) {
+        if(_subtaskDao == null) {
+          _subtaskDao = new SubtaskDao_Impl(this);
+        }
+        return _subtaskDao;
       }
     }
   }

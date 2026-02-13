@@ -2,6 +2,7 @@ package com.panyou.focusflow;
 
 import com.panyou.focusflow.di.DatabaseModule;
 import com.panyou.focusflow.ui.home.HomeViewModel_HiltModules;
+import com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -148,7 +149,8 @@ public final class FocusFlowApp_HiltComponents {
           ViewModelCBuilderModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           HiltWrapper_SavedStateHandleModule.class,
-          HomeViewModel_HiltModules.KeyModule.class
+          HomeViewModel_HiltModules.KeyModule.class,
+          TaskDetailViewModel_HiltModules.KeyModule.class
       }
   )
   @ActivityRetainedScoped
@@ -185,7 +187,8 @@ public final class FocusFlowApp_HiltComponents {
   @Subcomponent(
       modules = {
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
-          HomeViewModel_HiltModules.BindsModule.class
+          HomeViewModel_HiltModules.BindsModule.class,
+          TaskDetailViewModel_HiltModules.BindsModule.class
       }
   )
   @ViewModelScoped

@@ -1,6 +1,8 @@
 package com.panyou.focusflow.data.repository
 
+import com.panyou.focusflow.data.local.dao.SubtaskDao
 import com.panyou.focusflow.data.local.dao.TaskDao
+import com.panyou.focusflow.data.local.entity.Subtask
 import com.panyou.focusflow.data.local.entity.Task
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
@@ -8,10 +10,10 @@ import javax.inject.Singleton
 
 @Singleton
 class TaskRepository @Inject constructor(
-    private val taskDao: TaskDao
+    private val taskDao: TaskDao,
+    private val subtaskDao: SubtaskDao
 ) {
-    // Get all tasks for a specific list (Default to "Inbox" or main list for now)
-    // For V1, we can assume a default "My Day" or "Tasks" list ID if none provided
+    // ... Task methods ...
     fun getTasksForList(listId: String): Flow<List<Task>> = taskDao.getTasksByList(listId)
 
     fun getImportantTasks(): Flow<List<Task>> = taskDao.getImportantTasks()
@@ -29,5 +31,16 @@ class TaskRepository @Inject constructor(
         task?.let {
             updateTask(it.copy(isCompleted = isCompleted))
         }
+    }
+
+    // --- Subtask methods ---
+    fun getSubtasksForTask(taskId: String): Flow<List<Subtask>> = subtaskDao.getSubtasksForTask(taskId)
+
+    suspend fun insertSubtasks(subtasks: List<Subtask>) = subtaskDao.insertSubtasks(subtasks)
+
+    suspend fun updateSubtask(subtask: Subtask) = subtaskDao.updateSubtask(subtask)
+    
+    suspend fun toggleSubtaskCompletion(subtask: Subtask, isCompleted: Boolean) {
+        updateSubtask(subtask.copy(isCompleted = isCompleted))
     }
 }

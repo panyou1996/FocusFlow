@@ -27,6 +27,6 @@
       applicationId="com.panyou.focusflow"
       generatedSourceFolders="build/generated/ksp/release/java:build/generated/ksp/release/kotlin:build/generated/ap_generated_sources/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
-      desugaredMethodsFiles="/home/panyou/.gradle/caches/transforms-4/e39557338e34ca24b40a8530c9f8caa8/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/panyou/.gradle/caches/transforms-4/8f429ff1550cea078de6130a9ab146f4/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

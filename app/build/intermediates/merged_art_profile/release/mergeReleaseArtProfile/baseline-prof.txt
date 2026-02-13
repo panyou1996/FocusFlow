@@ -315,17 +315,6 @@ HSPLandroidx/compose/material3/PaletteTokens;->**(**)**
 HSPLandroidx/compose/material3/ShapeTokens;->**(**)**
 HSPLandroidx/compose/material3/TypographyTokens;->**(**)**
 
-# Baseline profile rules for androidx.compose.animation.core
-# =============================================
-# In practice it seems like almost every class in animation/core ends up getting loaded in even a
-# relatively small sample, and most end up getting marked as "HSP". Since Animation is a high value
-# target for performance - fade in, scroll, etc we are going to be liberal in the animation profile
-# rules and just mark the entire module.
-
-HSPLandroidx/compose/animation/core/**->**(**)**
-
-Landroidx/compose/animation/core/**;
-
 # Baseline profile rules for androidx.compose.material.ripple
 # =============================================
 HSPLandroidx/compose/material/ripple/AndroidRippleIndicationInstance;->**(**)**
@@ -346,6 +335,17 @@ HSPLandroidx/compose/material/ripple/RippleThemeKt**->**(**)**
 HSPLandroidx/compose/material/ripple/StateLayer;->**(**)**
 
 Landroidx/compose/material/ripple/*;
+
+# Baseline profile rules for androidx.compose.animation.core
+# =============================================
+# In practice it seems like almost every class in animation/core ends up getting loaded in even a
+# relatively small sample, and most end up getting marked as "HSP". Since Animation is a high value
+# target for performance - fade in, scroll, etc we are going to be liberal in the animation profile
+# rules and just mark the entire module.
+
+HSPLandroidx/compose/animation/core/**->**(**)**
+
+Landroidx/compose/animation/core/**;
 
 # Baseline profile rules for androidx.compose.animation
 # =============================================
