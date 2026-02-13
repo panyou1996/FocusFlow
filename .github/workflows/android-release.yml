@@ -26,7 +26,8 @@ jobs:
         run: chmod +x gradlew
 
       - name: Create local.properties
-        run: touch local.properties
+        run: |
+          echo "geminiApiKey=AIzaSyD_CI_PLACEHOLDER" > local.properties
 
       - name: Build APKs
         run: ./gradlew assembleDebug assembleRelease
