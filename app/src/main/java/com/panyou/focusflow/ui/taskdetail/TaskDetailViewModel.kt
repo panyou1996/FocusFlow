@@ -2,6 +2,9 @@ package com.panyou.focusflow.ui.taskdetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.google.ai.client.generativeai.GenerativeModel
+import com.google.ai.client.generativeai.type.content
+import com.panyou.focusflow.BuildConfig
 import com.panyou.focusflow.data.local.entity.Subtask
 import com.panyou.focusflow.data.local.entity.Task
 import com.panyou.focusflow.data.repository.TaskRepository
@@ -9,12 +12,10 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import java.util.UUID
 import javax.inject.Inject
 
 @HiltViewModel
@@ -22,17 +23,19 @@ class TaskDetailViewModel @Inject constructor(
     private val taskRepository: TaskRepository
 ) : ViewModel() {
 
+    // --- Gemini AI Setup ---
+    // In a real app, inject this via Hilt to make it testable
+    private val generativeModel = GenerativeModel(
+        modelName = "gemini-pro",
+        apiKey = BuildConfig.geminiApiKey // Safe access via Secrets Plugin
+    )
+
     private val _taskId = MutableStateFlow<String?>(null)
 
     val task: StateFlow<Task?> = _taskId.flatMapLatest { id ->
-        if (id == null) flowOf(null) else flowOf(taskRepository.getTaskById(id)) // This is one-shot, ideally should observe
-        // For editing, we might want a MutableStateFlow that initializes from DB
-        // But for MVVM + Room flow, let's keep it simple:
-        // We actually need a Flow<Task?> from repo. Let's add that to Repo later.
-        // For now, let's just load it once into a mutable state for editing.
+        if (id == null) flowOf(null) else flowOf(taskRepository.getTaskById(id)) 
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), null)
 
-    // Better approach for Detail: Load into mutable state for editing
     private val _uiState = MutableStateFlow(TaskDetailUiState())
     val uiState: StateFlow<TaskDetailUiState> = _uiState
 
@@ -40,7 +43,6 @@ class TaskDetailViewModel @Inject constructor(
         viewModelScope.launch {
             val task = taskRepository.getTaskById(taskId)
             if (task != null) {
-                // Subscribe to subtasks
                 taskRepository.getSubtasksForTask(taskId).collect { subtasks ->
                     _uiState.value = _uiState.value.copy(
                         task = task,
@@ -84,23 +86,36 @@ class TaskDetailViewModel @Inject constructor(
         }
     }
 
-    // AI Mock Logic
+    // Real AI Logic using Gemini SDK
     fun generateSubtasksWithAI() {
         val currentTask = _uiState.value.task ?: return
         _uiState.value = _uiState.value.copy(isGenerating = true)
         
         viewModelScope.launch {
-            // TODO: Replace with real Gemini API call
-            // Simulate network delay
-            kotlinx.coroutines.delay(1500)
-            
-            val aiSubtasks = listOf(
-                Subtask(taskId = currentTask.id, title = "Research ${currentTask.title}", sortOrder = 0),
-                Subtask(taskId = currentTask.id, title = "Draft outline", sortOrder = 1),
-                Subtask(taskId = currentTask.id, title = "Review and refine", sortOrder = 2)
-            )
-            taskRepository.insertSubtasks(aiSubtasks)
-            _uiState.value = _uiState.value.copy(isGenerating = false)
+            try {
+                val prompt = "Break down this task into 3-5 actionable subtasks (short titles only, no numbering): ${currentTask.title}"
+                val response = generativeModel.generateContent(prompt)
+                
+                val rawText = response.text ?: ""
+                val lines = rawText.lines()
+                    .filter { it.isNotBlank() }
+                    .map { it.replace(Regex("^[-*\\d.]+\\s+"), "").trim() } // Remove bullets/numbers
+
+                val aiSubtasks = lines.mapIndexed { index, title ->
+                    Subtask(
+                        taskId = currentTask.id,
+                        title = title,
+                        sortOrder = _uiState.value.subtasks.size + index
+                    )
+                }
+                
+                taskRepository.insertSubtasks(aiSubtasks)
+            } catch (e: Exception) {
+                // TODO: Handle AI error (e.g., show snackbar)
+                e.printStackTrace()
+            } finally {
+                _uiState.value = _uiState.value.copy(isGenerating = false)
+            }
         }
     }
 }

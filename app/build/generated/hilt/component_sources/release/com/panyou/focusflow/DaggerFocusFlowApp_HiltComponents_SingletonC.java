@@ -393,15 +393,15 @@ public final class DaggerFocusFlowApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel = "com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel";
-
       static String com_panyou_focusflow_ui_home_HomeViewModel = "com.panyou.focusflow.ui.home.HomeViewModel";
 
-      @KeepFieldType
-      TaskDetailViewModel com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel2;
+      static String com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel = "com.panyou.focusflow.ui.taskdetail.TaskDetailViewModel";
 
       @KeepFieldType
       HomeViewModel com_panyou_focusflow_ui_home_HomeViewModel2;
+
+      @KeepFieldType
+      TaskDetailViewModel com_panyou_focusflow_ui_taskdetail_TaskDetailViewModel2;
     }
   }
 

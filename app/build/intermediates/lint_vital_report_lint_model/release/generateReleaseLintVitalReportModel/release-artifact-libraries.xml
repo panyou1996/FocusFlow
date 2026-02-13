@@ -1,9 +1,9 @@
 <libraries>
   <library
       name="androidx.hilt:hilt-navigation-compose:1.2.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/e0c3bfcbec14c27e725435ddf33181ef/transformed/jetified-hilt-navigation-compose-1.2.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/fcf6efb5f0e7bdf8a789dc2b118e641d/transformed/jetified-hilt-navigation-compose-1.2.0/jars/classes.jar"
       resolved="androidx.hilt:hilt-navigation-compose:1.2.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/e0c3bfcbec14c27e725435ddf33181ef/transformed/jetified-hilt-navigation-compose-1.2.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/fcf6efb5f0e7bdf8a789dc2b118e641d/transformed/jetified-hilt-navigation-compose-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -14,9 +14,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.hilt:hilt-navigation:1.2.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/1fe5cdc2e81787b281ea723f0e6e46a8/transformed/jetified-hilt-navigation-1.2.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/4ab5216ddbbb23830c8c3f6f37a1369f/transformed/jetified-hilt-navigation-1.2.0/jars/classes.jar"
       resolved="androidx.hilt:hilt-navigation:1.2.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/1fe5cdc2e81787b281ea723f0e6e46a8/transformed/jetified-hilt-navigation-1.2.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/4ab5216ddbbb23830c8c3f6f37a1369f/transformed/jetified-hilt-navigation-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -27,9 +27,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-common:2.7.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/34b3f59f237670c45b354a53df83882a/transformed/navigation-common-2.7.7/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/99ae26ba3a6103ba316abb56a307f28c/transformed/navigation-common-2.7.7/jars/classes.jar"
       resolved="androidx.navigation:navigation-common:2.7.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/34b3f59f237670c45b354a53df83882a/transformed/navigation-common-2.7.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/99ae26ba3a6103ba316abb56a307f28c/transformed/navigation-common-2.7.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -40,9 +40,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-common-ktx:2.7.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/7d3d905cf53d82cb30085db7ba74b565/transformed/navigation-common-ktx-2.7.7/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/fe7fcdd2a28ce491973612e308ef6189/transformed/navigation-common-ktx-2.7.7/jars/classes.jar"
       resolved="androidx.navigation:navigation-common-ktx:2.7.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/7d3d905cf53d82cb30085db7ba74b565/transformed/navigation-common-ktx-2.7.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/fe7fcdd2a28ce491973612e308ef6189/transformed/navigation-common-ktx-2.7.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -53,9 +53,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-runtime:2.7.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/8f63924cb8562a70c55bc06cd570b5a6/transformed/navigation-runtime-2.7.7/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/0c02b7118d7670faf527072f8b68ff16/transformed/navigation-runtime-2.7.7/jars/classes.jar"
       resolved="androidx.navigation:navigation-runtime:2.7.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/8f63924cb8562a70c55bc06cd570b5a6/transformed/navigation-runtime-2.7.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/0c02b7118d7670faf527072f8b68ff16/transformed/navigation-runtime-2.7.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -66,9 +66,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-runtime-ktx:2.7.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/33f53e89682164779a8b0844464817a3/transformed/navigation-runtime-ktx-2.7.7/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/35fe28c6abe3aae34bda03c20cf9b0de/transformed/navigation-runtime-ktx-2.7.7/jars/classes.jar"
       resolved="androidx.navigation:navigation-runtime-ktx:2.7.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/33f53e89682164779a8b0844464817a3/transformed/navigation-runtime-ktx-2.7.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/35fe28c6abe3aae34bda03c20cf9b0de/transformed/navigation-runtime-ktx-2.7.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -79,9 +79,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-compose:2.7.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/15c244c619513991395af69c6eabf914/transformed/jetified-navigation-compose-2.7.7/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/0a35b858c4f84072f413cb2d23cb4ac9/transformed/jetified-navigation-compose-2.7.7/jars/classes.jar"
       resolved="androidx.navigation:navigation-compose:2.7.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/15c244c619513991395af69c6eabf914/transformed/jetified-navigation-compose-2.7.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/0a35b858c4f84072f413cb2d23cb4ac9/transformed/jetified-navigation-compose-2.7.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -92,9 +92,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="com.google.dagger:hilt-android:2.51.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/5e53965b61cac35f0d24a62d3df00e8f/transformed/jetified-hilt-android-2.51.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/b9a56925975ee7ad35641f2ced1727ce/transformed/jetified-hilt-android-2.51.1/jars/classes.jar"
       resolved="com.google.dagger:hilt-android:2.51.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/5e53965b61cac35f0d24a62d3df00e8f/transformed/jetified-hilt-android-2.51.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/b9a56925975ee7ad35641f2ced1727ce/transformed/jetified-hilt-android-2.51.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -105,9 +105,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.fragment:fragment:1.5.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/414462ddae19ab6dba052f97326791a3/transformed/fragment-1.5.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/a89c9b2cc64a3e32383c4a3ae65f8e82/transformed/fragment-1.5.1/jars/classes.jar"
       resolved="androidx.fragment:fragment:1.5.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/414462ddae19ab6dba052f97326791a3/transformed/fragment-1.5.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/a89c9b2cc64a3e32383c4a3ae65f8e82/transformed/fragment-1.5.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -118,9 +118,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.activity:activity:1.9.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/226252991cc7d730c968f28a1be7587d/transformed/jetified-activity-1.9.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/853a39acdaa3fa86c0072aa47015677b/transformed/jetified-activity-1.9.0/jars/classes.jar"
       resolved="androidx.activity:activity:1.9.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/226252991cc7d730c968f28a1be7587d/transformed/jetified-activity-1.9.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/853a39acdaa3fa86c0072aa47015677b/transformed/jetified-activity-1.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -131,9 +131,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.activity:activity-compose:1.9.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/b5750a9a943d39058122097d20f35414/transformed/jetified-activity-compose-1.9.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/cc814af44efe318ef948ffab15b5f1ab/transformed/jetified-activity-compose-1.9.0/jars/classes.jar"
       resolved="androidx.activity:activity-compose:1.9.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/b5750a9a943d39058122097d20f35414/transformed/jetified-activity-compose-1.9.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/cc814af44efe318ef948ffab15b5f1ab/transformed/jetified-activity-compose-1.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -144,9 +144,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.activity:activity-ktx:1.9.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/b5c1cb79581db09d684982f20e55a900/transformed/jetified-activity-ktx-1.9.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/4731566b94d1dbaf6e40010e12b797de/transformed/jetified-activity-ktx-1.9.0/jars/classes.jar"
       resolved="androidx.activity:activity-ktx:1.9.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/b5c1cb79581db09d684982f20e55a900/transformed/jetified-activity-ktx-1.9.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/4731566b94d1dbaf6e40010e12b797de/transformed/jetified-activity-ktx-1.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -157,9 +157,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.loader:loader:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/3228b68144a30cbbc7b21b8b8202f62d/transformed/loader-1.0.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/de749c16c51094078548ce40c9be7233/transformed/loader-1.0.0/jars/classes.jar"
       resolved="androidx.loader:loader:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/3228b68144a30cbbc7b21b8b8202f62d/transformed/loader-1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/de749c16c51094078548ce40c9be7233/transformed/loader-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -170,9 +170,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.viewpager:viewpager:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/eac52e58435ad40ebeb25709c467d4c9/transformed/viewpager-1.0.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/cbaf1472c99b19bb617e492e2b798fb2/transformed/viewpager-1.0.0/jars/classes.jar"
       resolved="androidx.viewpager:viewpager:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/eac52e58435ad40ebeb25709c467d4c9/transformed/viewpager-1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/cbaf1472c99b19bb617e492e2b798fb2/transformed/viewpager-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -183,9 +183,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.customview:customview:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/8cf6dc4a1361cbd8720e65c311ca4ad7/transformed/customview-1.0.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/8a8dc1dc37f9ea9ea6b4e7901636c3bd/transformed/customview-1.0.0/jars/classes.jar"
       resolved="androidx.customview:customview:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/8cf6dc4a1361cbd8720e65c311ca4ad7/transformed/customview-1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/8a8dc1dc37f9ea9ea6b4e7901636c3bd/transformed/customview-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -196,9 +196,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.core:core:1.13.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/e421521b774d67ce57803e4b8d0b38c2/transformed/core-1.13.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/1046daaf0e8ea8f782aeba842522cce0/transformed/core-1.13.1/jars/classes.jar"
       resolved="androidx.core:core:1.13.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/e421521b774d67ce57803e4b8d0b38c2/transformed/core-1.13.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/1046daaf0e8ea8f782aeba842522cce0/transformed/core-1.13.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -209,9 +209,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/0d7122008001422136015950f45cc165/transformed/jetified-lifecycle-livedata-core-ktx-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/fc1a1d482575508f4ad649fc2b2c0947/transformed/jetified-lifecycle-livedata-core-ktx-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/0d7122008001422136015950f45cc165/transformed/jetified-lifecycle-livedata-core-ktx-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/fc1a1d482575508f4ad649fc2b2c0947/transformed/jetified-lifecycle-livedata-core-ktx-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -222,9 +222,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-livedata:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/079083ab5f941ed2f539b20744a709ff/transformed/lifecycle-livedata-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/4136330b3d34db2b637fe7587ec40982/transformed/lifecycle-livedata-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/079083ab5f941ed2f539b20744a709ff/transformed/lifecycle-livedata-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/4136330b3d34db2b637fe7587ec40982/transformed/lifecycle-livedata-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -235,9 +235,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-runtime-android:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/c38ded8e709625100a62b82326033eca/transformed/jetified-lifecycle-runtime-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/4c78f275d6aab476a68c73f040be2580/transformed/jetified-lifecycle-runtime-release/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-runtime-android:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/c38ded8e709625100a62b82326033eca/transformed/jetified-lifecycle-runtime-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/4c78f275d6aab476a68c73f040be2580/transformed/jetified-lifecycle-runtime-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -248,9 +248,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/aa249ba1c6ad25a7cfd51ba789d801ef/transformed/jetified-lifecycle-viewmodel-compose-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/2015f0a2cf9fde6af98d40a9a985c8e8/transformed/jetified-lifecycle-viewmodel-compose-release/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/aa249ba1c6ad25a7cfd51ba789d801ef/transformed/jetified-lifecycle-viewmodel-compose-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/2015f0a2cf9fde6af98d40a9a985c8e8/transformed/jetified-lifecycle-viewmodel-compose-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -265,9 +265,9 @@
       resolved="androidx.lifecycle:lifecycle-common-jvm:2.8.0"/>
   <library
       name="androidx.lifecycle:lifecycle-livedata-core:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/2ed9522e0d50d683a3655244dad27629/transformed/lifecycle-livedata-core-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/ea8a756dfacc352e26447c5d56931116/transformed/lifecycle-livedata-core-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata-core:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/2ed9522e0d50d683a3655244dad27629/transformed/lifecycle-livedata-core-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/ea8a756dfacc352e26447c5d56931116/transformed/lifecycle-livedata-core-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -278,9 +278,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/f5358ac5acdc2a1e937ba1ea518d1735/transformed/lifecycle-viewmodel-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/546d825d9f74e34f05caef21b7d61263/transformed/lifecycle-viewmodel-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/f5358ac5acdc2a1e937ba1ea518d1735/transformed/lifecycle-viewmodel-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/546d825d9f74e34f05caef21b7d61263/transformed/lifecycle-viewmodel-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -291,9 +291,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel-android:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/05b7fdd7131a5e708345feb0c07d2d6d/transformed/jetified-lifecycle-viewmodel-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/2597f723f120dbb559b4d75d9a8ec512/transformed/jetified-lifecycle-viewmodel-release/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel-android:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/05b7fdd7131a5e708345feb0c07d2d6d/transformed/jetified-lifecycle-viewmodel-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/2597f723f120dbb559b4d75d9a8ec512/transformed/jetified-lifecycle-viewmodel-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -304,9 +304,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/c745e4ad30a93d25dfff251714870108/transformed/jetified-lifecycle-viewmodel-ktx-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/7ac4f521c895a9b3954db8385dd471b8/transformed/jetified-lifecycle-viewmodel-ktx-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/c745e4ad30a93d25dfff251714870108/transformed/jetified-lifecycle-viewmodel-ktx-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/7ac4f521c895a9b3954db8385dd471b8/transformed/jetified-lifecycle-viewmodel-ktx-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -317,9 +317,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-runtime-compose-android:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/db44507cda7176ac2a7d7264c7513928/transformed/jetified-lifecycle-runtime-compose-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/d5d5deed4b639852dd0cd02b0c9a337d/transformed/jetified-lifecycle-runtime-compose-release/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-runtime-compose-android:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/db44507cda7176ac2a7d7264c7513928/transformed/jetified-lifecycle-runtime-compose-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/d5d5deed4b639852dd0cd02b0c9a337d/transformed/jetified-lifecycle-runtime-compose-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -330,9 +330,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/9ae701cdd6a00eac8c6a4d5a55bc8482/transformed/jetified-lifecycle-runtime-ktx-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/949b1dc2ccc6ed28a2f49de90a0ffeaf/transformed/jetified-lifecycle-runtime-ktx-release/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/9ae701cdd6a00eac8c6a4d5a55bc8482/transformed/jetified-lifecycle-runtime-ktx-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/949b1dc2ccc6ed28a2f49de90a0ffeaf/transformed/jetified-lifecycle-runtime-ktx-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -343,9 +343,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/e8618fe5a109b018000267926da42892/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/f89392684a73bead27af720c298a99ad/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/e8618fe5a109b018000267926da42892/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/f89392684a73bead27af720c298a99ad/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -356,9 +356,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.core:core-ktx:1.13.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/bc00c6cce9a548082e82cfcc7f95b0b8/transformed/jetified-core-ktx-1.13.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/43b29f3ea827989c65f3c93c04f4953b/transformed/jetified-core-ktx-1.13.1/jars/classes.jar"
       resolved="androidx.core:core-ktx:1.13.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/bc00c6cce9a548082e82cfcc7f95b0b8/transformed/jetified-core-ktx-1.13.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/43b29f3ea827989c65f3c93c04f4953b/transformed/jetified-core-ktx-1.13.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -373,9 +373,9 @@
       resolved="androidx.room:room-common:2.6.1"/>
   <library
       name="androidx.room:room-runtime:2.6.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/f65d3537aa92bdf1432d551f39cc8210/transformed/room-runtime-2.6.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/8b3d647f315087fd5544f6475fbc549c/transformed/room-runtime-2.6.1/jars/classes.jar"
       resolved="androidx.room:room-runtime:2.6.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/f65d3537aa92bdf1432d551f39cc8210/transformed/room-runtime-2.6.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/8b3d647f315087fd5544f6475fbc549c/transformed/room-runtime-2.6.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -386,9 +386,22 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.room:room-ktx:2.6.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/95712c5d8b6de538a3ea775f4833d929/transformed/jetified-room-ktx-2.6.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/726e4197e47d2ab9712e512d56ec31df/transformed/jetified-room-ktx-2.6.1/jars/classes.jar"
       resolved="androidx.room:room-ktx:2.6.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/95712c5d8b6de538a3ea775f4833d929/transformed/jetified-room-ktx-2.6.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/726e4197e47d2ab9712e512d56ec31df/transformed/jetified-room-ktx-2.6.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.ai.client.generativeai:generativeai:0.9.0@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/c72dd6631bea78512083c3527d94ee31/transformed/jetified-generativeai-0.9.0/jars/classes.jar"
+      resolved="com.google.ai.client.generativeai:generativeai:0.9.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/c72dd6631bea78512083c3527d94ee31/transformed/jetified-generativeai-0.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -399,48 +412,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material3:material3-android:1.2.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/08c932fd77a65dcd18e0a9d268dcdf8a/transformed/jetified-material3-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/1cd66ec1d9d6a4163b0d2159f54da449/transformed/jetified-material3-release/jars/classes.jar"
       resolved="androidx.compose.material3:material3-android:1.2.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/08c932fd77a65dcd18e0a9d268dcdf8a/transformed/jetified-material3-release"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.annotation:annotation-experimental:1.4.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/54341fdb567eeb438910a4702f43790e/transformed/jetified-annotation-experimental-1.4.0/jars/classes.jar"
-      resolved="androidx.annotation:annotation-experimental:1.4.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/54341fdb567eeb438910a4702f43790e/transformed/jetified-annotation-experimental-1.4.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/419bf18940c3595a8792e21a3ae0a455/transformed/jetified-savedstate-ktx-1.2.1/jars/classes.jar"
-      resolved="androidx.savedstate:savedstate-ktx:1.2.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/419bf18940c3595a8792e21a3ae0a455/transformed/jetified-savedstate-ktx-1.2.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.savedstate:savedstate:1.2.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/041694b4519800285b686f893cc38126/transformed/jetified-savedstate-1.2.1/jars/classes.jar"
-      resolved="androidx.savedstate:savedstate:1.2.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/041694b4519800285b686f893cc38126/transformed/jetified-savedstate-1.2.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/1cd66ec1d9d6a4163b0d2159f54da449/transformed/jetified-material3-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -451,9 +425,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.foundation:foundation-layout-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/63ef368e479274532c4e823b3dfe9d04/transformed/jetified-foundation-layout-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/2bd18b2eb86426ea8a8c2c822a7a0f0a/transformed/jetified-foundation-layout-release/jars/classes.jar"
       resolved="androidx.compose.foundation:foundation-layout-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/63ef368e479274532c4e823b3dfe9d04/transformed/jetified-foundation-layout-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/2bd18b2eb86426ea8a8c2c822a7a0f0a/transformed/jetified-foundation-layout-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -464,9 +438,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-icons-core-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/ef1d56c8baeccc88436cf9f48c95fe1f/transformed/jetified-material-icons-core-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/5d947d8a0d814ab5bec9d738a501797a/transformed/jetified-material-icons-core-release/jars/classes.jar"
       resolved="androidx.compose.material:material-icons-core-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/ef1d56c8baeccc88436cf9f48c95fe1f/transformed/jetified-material-icons-core-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/5d947d8a0d814ab5bec9d738a501797a/transformed/jetified-material-icons-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -477,9 +451,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-icons-extended-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/1cd83a495b90be6cc5ef2e2420918c65/transformed/jetified-material-icons-extended-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/fe725fa1625e60b55f5626d1c067e357/transformed/jetified-material-icons-extended-release/jars/classes.jar"
       resolved="androidx.compose.material:material-icons-extended-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/1cd83a495b90be6cc5ef2e2420918c65/transformed/jetified-material-icons-extended-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/fe725fa1625e60b55f5626d1c067e357/transformed/jetified-material-icons-extended-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -490,9 +464,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-ripple-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/086f455fee98cd0f4db157dd2c76038b/transformed/jetified-material-ripple-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/b234dcaf63e99c6a5309dc8fb619e852/transformed/jetified-material-ripple-release/jars/classes.jar"
       resolved="androidx.compose.material:material-ripple-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/086f455fee98cd0f4db157dd2c76038b/transformed/jetified-material-ripple-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/b234dcaf63e99c6a5309dc8fb619e852/transformed/jetified-material-ripple-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -503,9 +477,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.foundation:foundation-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/8698b1e6b156a762c776188aa1b33500/transformed/jetified-foundation-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/b65218713412f1f1568613315ff09fbb/transformed/jetified-foundation-release/jars/classes.jar"
       resolved="androidx.compose.foundation:foundation-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/8698b1e6b156a762c776188aa1b33500/transformed/jetified-foundation-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/b65218713412f1f1568613315ff09fbb/transformed/jetified-foundation-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -516,9 +490,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.animation:animation-core-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/d208adf14e21864ac2ad8888dd87db2f/transformed/jetified-animation-core-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/d05461a3d3db67d689798a7a8e4848b5/transformed/jetified-animation-core-release/jars/classes.jar"
       resolved="androidx.compose.animation:animation-core-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/d208adf14e21864ac2ad8888dd87db2f/transformed/jetified-animation-core-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/d05461a3d3db67d689798a7a8e4848b5/transformed/jetified-animation-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -529,9 +503,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.animation:animation-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/60330cc859af3823f7ef0043766a7df7/transformed/jetified-animation-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/4c9ca930887ef8923d2eba433e782b2e/transformed/jetified-animation-release/jars/classes.jar"
       resolved="androidx.compose.animation:animation-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/60330cc859af3823f7ef0043766a7df7/transformed/jetified-animation-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/4c9ca930887ef8923d2eba433e782b2e/transformed/jetified-animation-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -542,9 +516,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-util-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/c5cf1bce6ed32849ec42daaf234ccac6/transformed/jetified-ui-util-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/c478878f68902458725109fc16ccf61a/transformed/jetified-ui-util-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-util-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/c5cf1bce6ed32849ec42daaf234ccac6/transformed/jetified-ui-util-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/c478878f68902458725109fc16ccf61a/transformed/jetified-ui-util-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -555,9 +529,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-unit-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/6507aa5f80834ca9ec7b5efa12d9ec96/transformed/jetified-ui-unit-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/986657384edb64988e7b8f42e7a5dd26/transformed/jetified-ui-unit-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-unit-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/6507aa5f80834ca9ec7b5efa12d9ec96/transformed/jetified-ui-unit-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/986657384edb64988e7b8f42e7a5dd26/transformed/jetified-ui-unit-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -568,9 +542,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-text-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/58ddf4dd2109126a44d3b23dec053caa/transformed/jetified-ui-text-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/a2e2a3c1a235bd6ceb6d9827a4ed5627/transformed/jetified-ui-text-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-text-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/58ddf4dd2109126a44d3b23dec053caa/transformed/jetified-ui-text-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/a2e2a3c1a235bd6ceb6d9827a4ed5627/transformed/jetified-ui-text-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -581,22 +555,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-geometry-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/79599c9c0eba70182e90cc96cfb521ef/transformed/jetified-ui-geometry-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/5196f21e7b5c79d33b0914927d003936/transformed/jetified-ui-geometry-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-geometry-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/79599c9c0eba70182e90cc96cfb521ef/transformed/jetified-ui-geometry-release"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.compose.ui:ui-tooling-preview-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/76bc177fec468140f2f8141a00f24daf/transformed/jetified-ui-tooling-preview-release/jars/classes.jar"
-      resolved="androidx.compose.ui:ui-tooling-preview-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/76bc177fec468140f2f8141a00f24daf/transformed/jetified-ui-tooling-preview-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/5196f21e7b5c79d33b0914927d003936/transformed/jetified-ui-geometry-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -607,9 +568,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-graphics-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/adc176c6ca2940299e556319002e4b69/transformed/jetified-ui-graphics-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/1002413b0e5a8314750bec8314780dd2/transformed/jetified-ui-graphics-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-graphics-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/adc176c6ca2940299e556319002e4b69/transformed/jetified-ui-graphics-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/1002413b0e5a8314750bec8314780dd2/transformed/jetified-ui-graphics-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -620,9 +581,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/22092eea36bf159d726aa13bde0735ba/transformed/jetified-ui-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/1c95ef8cf35e144313c8f5487db9093b/transformed/jetified-ui-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/22092eea36bf159d726aa13bde0735ba/transformed/jetified-ui-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/1c95ef8cf35e144313c8f5487db9093b/transformed/jetified-ui-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -632,49 +593,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.sqlite:sqlite-framework:2.4.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/33b30f60156401518781e6808215f8eb/transformed/sqlite-framework-2.4.0/jars/classes.jar"
-      resolved="androidx.sqlite:sqlite-framework:2.4.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/33b30f60156401518781e6808215f8eb/transformed/sqlite-framework-2.4.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.sqlite:sqlite:2.4.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/9e005bd0e07f0f4c489485c90df1e6ae/transformed/sqlite-2.4.0/jars/classes.jar"
-      resolved="androidx.sqlite:sqlite:2.4.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/9e005bd0e07f0f4c489485c90df1e6ae/transformed/sqlite-2.4.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/edf4d7ff6ff0751f71665751bff4d6a1/transformed/versionedparcelable-1.1.1/jars/classes.jar"
-      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/edf4d7ff6ff0751f71665751bff4d6a1/transformed/versionedparcelable-1.1.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.compose.runtime:runtime-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/a915c17fb32818848c1ac194898ec61d/transformed/jetified-runtime-release/jars/classes.jar"
-      resolved="androidx.compose.runtime:runtime-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/a915c17fb32818848c1ac194898ec61d/transformed/jetified-runtime-release"
+      name="androidx.compose.ui:ui-tooling-preview-android:1.6.7@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/f7f4a9acf91ebac766756c8f84173fa0/transformed/jetified-ui-tooling-preview-release/jars/classes.jar"
+      resolved="androidx.compose.ui:ui-tooling-preview-android:1.6.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/f7f4a9acf91ebac766756c8f84173fa0/transformed/jetified-ui-tooling-preview-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -685,9 +607,112 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.runtime:runtime-saveable-android:1.6.7@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/3adfa1a22a299ff3b69ebd1fe520dcc9/transformed/jetified-runtime-saveable-release/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/0492c99372934dc3bc112e472b32e805/transformed/jetified-runtime-saveable-release/jars/classes.jar"
       resolved="androidx.compose.runtime:runtime-saveable-android:1.6.7"
-      folder="/home/panyou/.gradle/caches/transforms-4/3adfa1a22a299ff3b69ebd1fe520dcc9/transformed/jetified-runtime-saveable-release"
+      folder="/home/panyou/.gradle/caches/transforms-4/0492c99372934dc3bc112e472b32e805/transformed/jetified-runtime-saveable-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.compose.runtime:runtime-android:1.6.7@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/403efaeca90059197aaadc45ac541986/transformed/jetified-runtime-release/jars/classes.jar"
+      resolved="androidx.compose.runtime:runtime-android:1.6.7"
+      folder="/home/panyou/.gradle/caches/transforms-4/403efaeca90059197aaadc45ac541986/transformed/jetified-runtime-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.7.3/2b09627576f0989a436a00a4a54b55fa5026fb86/kotlinx-coroutines-core-jvm-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.7.3/38d9cad3a0b03a10453b56577984bdeb48edeed5/kotlinx-coroutines-android-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.22/b25c86d47d6b962b9cf0f8c3f320c8a10eea3dd1/kotlin-stdlib-jdk8-1.8.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"/>
+  <library
+      name="androidx.annotation:annotation-experimental:1.4.0@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/fb06be85bb20535bb084ad783b57b87b/transformed/jetified-annotation-experimental-1.4.0/jars/classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.4.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/fb06be85bb20535bb084ad783b57b87b/transformed/jetified-annotation-experimental-1.4.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/5097c2777453828e57a4eedc51a59440/transformed/jetified-savedstate-ktx-1.2.1/jars/classes.jar"
+      resolved="androidx.savedstate:savedstate-ktx:1.2.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/5097c2777453828e57a4eedc51a59440/transformed/jetified-savedstate-ktx-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate:1.2.1@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/6b727478ad4e8f550eee2c62078d5b91/transformed/jetified-savedstate-1.2.1/jars/classes.jar"
+      resolved="androidx.savedstate:savedstate:1.2.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/6b727478ad4e8f550eee2c62078d5b91/transformed/jetified-savedstate-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.sqlite:sqlite-framework:2.4.0@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/cefd5c195cc1073362fb0b133606cdbe/transformed/sqlite-framework-2.4.0/jars/classes.jar"
+      resolved="androidx.sqlite:sqlite-framework:2.4.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/cefd5c195cc1073362fb0b133606cdbe/transformed/sqlite-framework-2.4.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.sqlite:sqlite:2.4.0@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/a30c55bb0480531e2ced9915052b53ef/transformed/sqlite-2.4.0/jars/classes.jar"
+      resolved="androidx.sqlite:sqlite:2.4.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/a30c55bb0480531e2ced9915052b53ef/transformed/sqlite-2.4.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/994d5ba9bfec85945e49960ec6e9d5c1/transformed/versionedparcelable-1.1.1/jars/classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/994d5ba9bfec85945e49960ec6e9d5c1/transformed/versionedparcelable-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -702,9 +727,9 @@
       resolved="androidx.collection:collection-jvm:1.4.0"/>
   <library
       name="androidx.arch.core:core-runtime:2.2.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/54eda2035586816def76271c289c8497/transformed/core-runtime-2.2.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/5d3439542f2b537a3b3c9081b18ebfe5/transformed/core-runtime-2.2.0/jars/classes.jar"
       resolved="androidx.arch.core:core-runtime:2.2.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/54eda2035586816def76271c289c8497/transformed/core-runtime-2.2.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/5d3439542f2b537a3b3c9081b18ebfe5/transformed/core-runtime-2.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -721,18 +746,6 @@
       name="androidx.annotation:annotation-jvm:1.8.0@jar"
       jars="/home/panyou/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.0/b8a16fe526014b7941c1debaccaf9c5153692dbb/annotation-jvm-1.8.0.jar"
       resolved="androidx.annotation:annotation-jvm:1.8.0"/>
-  <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3@jar"
-      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.7.3/2b09627576f0989a436a00a4a54b55fa5026fb86/kotlinx-coroutines-core-jvm-1.7.3.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3"/>
-  <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3@jar"
-      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.7.3/38d9cad3a0b03a10453b56577984bdeb48edeed5/kotlinx-coroutines-android-1.7.3.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"/>
-  <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar"
-      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.22/b25c86d47d6b962b9cf0f8c3f320c8a10eea3dd1/kotlin-stdlib-jdk8-1.8.22.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"
       jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/4dabb8248310d833bb6a8b516024a91fd3d275c/kotlin-stdlib-jdk7-1.8.22.jar"
@@ -759,9 +772,9 @@
       resolved="javax.inject:javax.inject:1"/>
   <library
       name="com.google.dagger:dagger-lint-aar:2.51.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/42ff6308c5277b56871c6afcf44a31f8/transformed/jetified-dagger-lint-aar-2.51.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/669462643275250cc475231f7af9c425/transformed/jetified-dagger-lint-aar-2.51.1/jars/classes.jar"
       resolved="com.google.dagger:dagger-lint-aar:2.51.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/42ff6308c5277b56871c6afcf44a31f8/transformed/jetified-dagger-lint-aar-2.51.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/669462643275250cc475231f7af9c425/transformed/jetified-dagger-lint-aar-2.51.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -776,9 +789,9 @@
       resolved="com.google.code.findbugs:jsr305:3.0.2"/>
   <library
       name="androidx.emoji2:emoji2:1.3.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/d22c0409cf0c3fbac2c7e5464deaf855/transformed/jetified-emoji2-1.3.0/jars/classes.jar:/home/panyou/.gradle/caches/transforms-4/d22c0409cf0c3fbac2c7e5464deaf855/transformed/jetified-emoji2-1.3.0/jars/libs/repackaged.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/39ec9c9d49ba04d23810ae632297d851/transformed/jetified-emoji2-1.3.0/jars/classes.jar:/home/panyou/.gradle/caches/transforms-4/39ec9c9d49ba04d23810ae632297d851/transformed/jetified-emoji2-1.3.0/jars/libs/repackaged.jar"
       resolved="androidx.emoji2:emoji2:1.3.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/d22c0409cf0c3fbac2c7e5464deaf855/transformed/jetified-emoji2-1.3.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/39ec9c9d49ba04d23810ae632297d851/transformed/jetified-emoji2-1.3.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -789,9 +802,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.lifecycle:lifecycle-process:2.8.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/649741070bf25afd84a7ec0cafa0c94e/transformed/jetified-lifecycle-process-2.8.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/815f4d311d9a73e059af54aebe964397/transformed/jetified-lifecycle-process-2.8.0/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-process:2.8.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/649741070bf25afd84a7ec0cafa0c94e/transformed/jetified-lifecycle-process-2.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/815f4d311d9a73e059af54aebe964397/transformed/jetified-lifecycle-process-2.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -806,9 +819,22 @@
       resolved="androidx.lifecycle:lifecycle-common-java8:2.8.0"/>
   <library
       name="androidx.autofill:autofill:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/dc480d1a2bbc8f95c675b54a6a2f9365/transformed/jetified-autofill-1.0.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/010c0535a7c5cfdb6ff415c74bbdf35b/transformed/jetified-autofill-1.0.0/jars/classes.jar"
       resolved="androidx.autofill:autofill:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/dc480d1a2bbc8f95c675b54a6a2f9365/transformed/jetified-autofill-1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/010c0535a7c5cfdb6ff415c74bbdf35b/transformed/jetified-autofill-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.ai.client.generativeai:common:0.8.0@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/83aea0edcf74f1b9b3ef944ec9dcc839/transformed/jetified-common-0.8.0/jars/classes.jar"
+      resolved="com.google.ai.client.generativeai:common:0.8.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/83aea0edcf74f1b9b3ef944ec9dcc839/transformed/jetified-common-0.8.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -819,22 +845,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.customview:customview-poolingcontainer:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/c5c46b85053889d6fc2f17f793f989d4/transformed/jetified-customview-poolingcontainer-1.0.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/2cdc6c57b9eec3fc159ea49333f6f523/transformed/jetified-customview-poolingcontainer-1.0.0/jars/classes.jar"
       resolved="androidx.customview:customview-poolingcontainer:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/c5c46b85053889d6fc2f17f793f989d4/transformed/jetified-customview-poolingcontainer-1.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.interpolator:interpolator:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/0b2f42348311a16f9b620e0ef2e9f69f/transformed/interpolator-1.0.0/jars/classes.jar"
-      resolved="androidx.interpolator:interpolator:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/0b2f42348311a16f9b620e0ef2e9f69f/transformed/interpolator-1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/2cdc6c57b9eec3fc159ea49333f6f523/transformed/jetified-customview-poolingcontainer-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -845,9 +858,110 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/7e186cb0ec7ea9b4b3efcdb44497dfe8/transformed/jetified-profileinstaller-1.3.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/4921957e4df1080778c52d4d18e8dfa6/transformed/jetified-profileinstaller-1.3.1/jars/classes.jar"
       resolved="androidx.profileinstaller:profileinstaller:1.3.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/7e186cb0ec7ea9b4b3efcdb44497dfe8/transformed/jetified-profileinstaller-1.3.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/4921957e4df1080778c52d4d18e8dfa6/transformed/jetified-profileinstaller-1.3.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.concurrent:concurrent-futures:1.2.0-alpha03@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.2.0-alpha03/719a071a5b713cddbb81f3b2c94cb8246bd064ad/concurrent-futures-1.2.0-alpha03.jar"
+      resolved="androidx.concurrent:concurrent-futures:1.2.0-alpha03"/>
+  <library
+      name="androidx.concurrent:concurrent-futures-ktx:1.2.0-alpha03@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures-ktx/1.2.0-alpha03/33bfff0b4d1b25c76bd2d355fec8f188d7bae241/concurrent-futures-ktx-1.2.0-alpha03.jar"
+      resolved="androidx.concurrent:concurrent-futures-ktx:1.2.0-alpha03"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.7.3@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactive/1.7.3/3f30c8dd5cd0993ca2804591210141be762786f8/kotlinx-coroutines-reactive-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.7.3"/>
+  <library
+      name="io.ktor:ktor-client-okhttp-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-okhttp-jvm/2.3.2/5ffb6be71200b631b23479fd197131136f70bc2d/ktor-client-okhttp-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-client-okhttp-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-client-content-negotiation-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-content-negotiation-jvm/2.3.2/9ed23f86f2a006c73f13f99a5b77e01208f9b733/ktor-client-content-negotiation-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-client-content-negotiation-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-client-logging-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-logging-jvm/2.3.2/9d9410538b16be2656089559961434888c6dc8d5/ktor-client-logging-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-client-logging-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-client-core-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/2.3.2/b6ccf5b17afc2df0c2d6882f321fd66bb42c7ae9/ktor-client-core-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-client-core-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-serialization-kotlinx-json-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-kotlinx-json-jvm/2.3.2/fba15b370a2933abb5076f958c539ca0dcb8d1fd/ktor-serialization-kotlinx-json-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-serialization-kotlinx-json-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-events-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-events-jvm/2.3.2/436c568ca8381a3fef4a694f81b1b0d62ce670c3/ktor-events-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-events-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-websocket-serialization-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization-jvm/2.3.2/c741c542219ad84a95af6da0d78ccbeace2002f6/ktor-websocket-serialization-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-websocket-serialization-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-serialization-kotlinx-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-kotlinx-jvm/2.3.2/fd32c467882ca1f1a049a08e2813af9937b821aa/ktor-serialization-kotlinx-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-serialization-kotlinx-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-serialization-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-jvm/2.3.2/23ca3bc995da97cd29de4e9e047da0009ebeedd9/ktor-serialization-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-serialization-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-websockets-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-websockets-jvm/2.3.2/210ba61f35da17e7b57bd5c493f330db7de88c95/ktor-websockets-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-websockets-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-http-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/2.3.2/a7a872627b3355eab152932c28101454f82e95b0/ktor-http-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-http-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-utils-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/2.3.2/ca2818dc811d46ad8719cb9b207c75864921b3ec/ktor-utils-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-utils-jvm:2.3.2"/>
+  <library
+      name="io.ktor:ktor-io-jvm:2.3.2@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/2.3.2/461667ef8369e8e488d05fdaa39ce0e3bf465e4c/ktor-io-jvm-2.3.2.jar"
+      resolved="io.ktor:ktor-io-jvm:2.3.2"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.3@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.7.3/263611b87f7546402852e43a8dc7ef3223ada42a/kotlinx-coroutines-jdk8-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.3"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.7.3@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-slf4j/1.7.3/34086fbfd556969d86b45ee2a69b816ee2413701/kotlinx-coroutines-slf4j-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.7.3"/>
+  <library
+      name="com.squareup.okhttp3:okhttp:4.11.0@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.11.0/436932d695b2c43f2c86b8111c596179cd133d56/okhttp-4.11.0.jar"
+      resolved="com.squareup.okhttp3:okhttp:4.11.0"/>
+  <library
+      name="com.squareup.okio:okio-jvm:3.2.0@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.2.0/332d1c5dc82b0241cb1d35bb0901d28470cc89ca/okio-jvm-3.2.0.jar"
+      resolved="com.squareup.okio:okio-jvm:3.2.0"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.1@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.5.1/e26cf5dfbcfe3e82ca196694dfd305753b1a49b9/kotlinx-serialization-core-jvm-1.5.1.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.1"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.1@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.5.1/21ac91884e0b9462b9106d1a83e5e0d200170c65/kotlinx-serialization-json-jvm-1.5.1.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.1"/>
+  <library
+      name="androidx.interpolator:interpolator:1.0.0@aar"
+      jars="/home/panyou/.gradle/caches/transforms-4/0a24eb86784d1780bc288c5c76adbdc4/transformed/interpolator-1.0.0/jars/classes.jar"
+      resolved="androidx.interpolator:interpolator:1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/0a24eb86784d1780bc288c5c76adbdc4/transformed/interpolator-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -858,9 +972,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.startup:startup-runtime:1.1.1@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/37777d069f413b37bc8fd2ac867a1b41/transformed/jetified-startup-runtime-1.1.1/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/5b07927ce2d279d9c023a90c2b6efa90/transformed/jetified-startup-runtime-1.1.1/jars/classes.jar"
       resolved="androidx.startup:startup-runtime:1.1.1"
-      folder="/home/panyou/.gradle/caches/transforms-4/37777d069f413b37bc8fd2ac867a1b41/transformed/jetified-startup-runtime-1.1.1"
+      folder="/home/panyou/.gradle/caches/transforms-4/5b07927ce2d279d9c023a90c2b6efa90/transformed/jetified-startup-runtime-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -871,9 +985,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.tracing:tracing:1.0.0@aar"
-      jars="/home/panyou/.gradle/caches/transforms-4/111e9662129187e5f866a1bead98e58e/transformed/jetified-tracing-1.0.0/jars/classes.jar"
+      jars="/home/panyou/.gradle/caches/transforms-4/cde13db3508b1d1e083ddb2e2ac991bf/transformed/jetified-tracing-1.0.0/jars/classes.jar"
       resolved="androidx.tracing:tracing:1.0.0"
-      folder="/home/panyou/.gradle/caches/transforms-4/111e9662129187e5f866a1bead98e58e/transformed/jetified-tracing-1.0.0"
+      folder="/home/panyou/.gradle/caches/transforms-4/cde13db3508b1d1e083ddb2e2ac991bf/transformed/jetified-tracing-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -883,15 +997,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.concurrent:concurrent-futures:1.1.0@jar"
-      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar"
-      resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
-  <library
       name="androidx.collection:collection-ktx:1.4.0@jar"
       jars="/home/panyou/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.4.0/2ad14aed781c4a73ed4dbb421966d408a0a06686/collection-ktx-1.4.0.jar"
       resolved="androidx.collection:collection-ktx:1.4.0"/>
   <library
+      name="org.slf4j:slf4j-nop:2.0.9@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/2.0.9/fa0627049304bf501bf6a0e4d1416bcaec9a72a9/slf4j-nop-2.0.9.jar"
+      resolved="org.slf4j:slf4j-nop:2.0.9"/>
+  <library
+      name="org.reactivestreams:reactive-streams:1.0.3@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar"
+      resolved="org.reactivestreams:reactive-streams:1.0.3"/>
+  <library
       name="com.google.guava:listenablefuture:1.0@jar"
       jars="/home/panyou/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
       resolved="com.google.guava:listenablefuture:1.0"/>
+  <library
+      name="org.slf4j:slf4j-api:2.0.9@jar"
+      jars="/home/panyou/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.9/7cf2726fdcfbc8610f9a71fb3ed639871f315340/slf4j-api-2.0.9.jar"
+      resolved="org.slf4j:slf4j-api:2.0.9"/>
 </libraries>

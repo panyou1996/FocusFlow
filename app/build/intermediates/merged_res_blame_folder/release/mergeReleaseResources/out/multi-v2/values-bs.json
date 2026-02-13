@@ -4,7 +4,7 @@
             "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-55:/values-bs/values-bs.xml",
             "map": [
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/e421521b774d67ce57803e4b8d0b38c2/transformed/core-1.13.1/res/values-bs/values-bs.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/1046daaf0e8ea8f782aeba842522cce0/transformed/core-1.13.1/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/8698b1e6b156a762c776188aa1b33500/transformed/jetified-foundation-release/res/values-bs/values-bs.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/b65218713412f1f1568613315ff09fbb/transformed/jetified-foundation-release/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/22092eea36bf159d726aa13bde0735ba/transformed/jetified-ui-release/res/values-bs/values-bs.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/1c95ef8cf35e144313c8f5487db9093b/transformed/jetified-ui-release/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/08c932fd77a65dcd18e0a9d268dcdf8a/transformed/jetified-material3-release/res/values-bs/values-bs.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/1cd66ec1d9d6a4163b0d2159f54da449/transformed/jetified-material3-release/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
