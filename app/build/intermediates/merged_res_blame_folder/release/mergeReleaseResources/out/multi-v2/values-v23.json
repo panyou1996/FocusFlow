@@ -4,7 +4,7 @@
             "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-61:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/fb5b648f894f8b80f600ac4b82c5f893/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/182550ba4b5bbddd835447a2bab6ba0b/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

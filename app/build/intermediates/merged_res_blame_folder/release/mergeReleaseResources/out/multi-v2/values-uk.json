@@ -4,7 +4,7 @@
             "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-61:/values-uk/values-uk.xml",
             "map": [
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/068862c98dac1a5090a633948ae4c09f/transformed/jetified-material3-release/res/values-uk/values-uk.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/4e30e7de8c062f6611c51e9d8af9f957/transformed/jetified-material3-release/res/values-uk/values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/303f671817fe63c4276ce5711716fa64/transformed/jetified-ui-release/res/values-uk/values-uk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,198,282,384,485,569,651,740,828,910,980,1051,1136,1224,1296,1376,1446",
-                        "endColumns": "92,83,101,100,83,81,88,87,81,69,70,84,87,71,79,69,122",
-                        "endOffsets": "193,277,379,480,564,646,735,823,905,975,1046,1131,1219,1291,1371,1441,1564"
-                    },
-                    "to": {
-                        "startLines": "36,37,38,39,40,41,42,99,100,101,102,103,104,106,108,109,110",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3556,3649,3733,3835,3936,4020,4102,10372,10460,10542,10612,10683,10768,10938,11111,11191,11261",
-                        "endColumns": "92,83,101,100,83,81,88,87,81,69,70,84,87,71,79,69,122",
-                        "endOffsets": "3644,3728,3830,3931,4015,4097,4186,10455,10537,10607,10678,10763,10851,11005,11186,11256,11379"
-                    }
-                },
-                {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/4f648cb209a805f7ec6a16d8ba854d26/transformed/core-1.13.1/res/values-uk/values-uk.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/8230fb61e46df792584811968851a0a8/transformed/core-1.13.1/res/values-uk/values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/eedefebc6edf35a5951272a1379a1610/transformed/jetified-foundation-release/res/values-uk/values-uk.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/ae408ddb15b9b66c7ec56e59bee5da97/transformed/jetified-ui-release/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,198,282,384,485,569,651,740,828,910,980,1051,1136,1224,1296,1376,1446",
+                        "endColumns": "92,83,101,100,83,81,88,87,81,69,70,84,87,71,79,69,122",
+                        "endOffsets": "193,277,379,480,564,646,735,823,905,975,1046,1131,1219,1291,1371,1441,1564"
+                    },
+                    "to": {
+                        "startLines": "36,37,38,39,40,41,42,99,100,101,102,103,104,106,108,109,110",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3556,3649,3733,3835,3936,4020,4102,10372,10460,10542,10612,10683,10768,10938,11111,11191,11261",
+                        "endColumns": "92,83,101,100,83,81,88,87,81,69,70,84,87,71,79,69,122",
+                        "endOffsets": "3644,3728,3830,3931,4015,4097,4186,10455,10537,10607,10678,10763,10851,11005,11186,11256,11379"
+                    }
+                },
+                {
+                    "source": "/home/panyou/.gradle/caches/transforms-4/2fbc45c61c05ba966f1507e19141fffd/transformed/jetified-foundation-release/res/values-uk/values-uk.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/fb5b648f894f8b80f600ac4b82c5f893/transformed/appcompat-1.6.1/res/values-uk/values-uk.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/182550ba4b5bbddd835447a2bab6ba0b/transformed/appcompat-1.6.1/res/values-uk/values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

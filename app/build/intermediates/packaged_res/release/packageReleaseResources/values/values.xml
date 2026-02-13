@@ -2,5 +2,8 @@
 <resources>
     <color name="ic_launcher_background">#FF6200EE</color>
     <string name="app_name">FocusFlow</string>
-    <style name="Theme.FocusFlow" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.FocusFlow" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
 </resources>
