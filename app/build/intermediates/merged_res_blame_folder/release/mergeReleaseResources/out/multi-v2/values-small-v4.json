@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-69:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.panyou.focusflow.app-mergeReleaseResources-66:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/panyou/.gradle/caches/transforms-4/eba932b014c8691afda52431ea3cc46a/transformed/material-1.12.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/panyou/.gradle/caches/transforms-4/dbd910929518f8d88634045b7af0864e/transformed/material-1.12.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -8,8 +8,6 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -21,10 +19,9 @@ class HomeViewModel @Inject constructor(
     private val taskRepository: TaskRepository
 ) : ViewModel() {
 
-    // Default list ID for "Inbox" or "My Day"
     private val _currentListId = MutableStateFlow("default-inbox-id")
 
-    // UI State for list of tasks
+    @kotlinx.coroutines.ExperimentalCoroutinesApi
     val tasks: StateFlow<List<Task>> = _currentListId
         .flatMapLatest { listId ->
             taskRepository.getTasksForList(listId)

@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        android.util.Log.d("FocusFlow", "MainActivity onCreate started")
         enableEdgeToEdge()
         setContent {
             FocusFlowTheme {

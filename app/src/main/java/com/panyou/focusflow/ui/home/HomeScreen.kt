@@ -52,7 +52,6 @@ fun HomeScreen(
     var showAddTask by remember { mutableStateOf(false) }
     var newTaskTitle by remember { mutableStateOf("") }
     
-    // Task Detail State
     var selectedTaskId by remember { mutableStateOf<String?>(null) }
 
     if (selectedTaskId != null) {
@@ -85,7 +84,6 @@ fun HomeScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            // New Task Input
             AnimatedVisibility(visible = showAddTask) {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
@@ -122,7 +120,6 @@ fun HomeScreen(
                 }
             }
 
-            // Task List
             if (tasks.isEmpty()) {
                 Text(
                     text = "No tasks yet. Create one!",

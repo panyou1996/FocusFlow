@@ -91,10 +91,13 @@ class TaskDetailViewModel @Inject constructor(
         }
     }
 
-    // Real AI Logic using Gemini SDK
     fun generateSubtasksWithAI() {
         val currentTask = _uiState.value.task ?: return
-        val model = generativeModel ?: return // Guard against init error
+        val model = generativeModel
+        if (model == null) {
+            android.util.Log.e("FocusFlow", "Gemini Model not initialized - check API Key")
+            return 
+        }
         _uiState.value = _uiState.value.copy(isGenerating = true)
         
         viewModelScope.launch {
