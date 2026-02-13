@@ -4,7 +4,6 @@ ADDED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/Andr
 INJECTED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml:2:1-30:12
 INJECTED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml:2:1-30:12
 INJECTED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml:2:1-30:12
-MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /home/panyou/.gradle/caches/transforms-4/42e806ae9323428241c003995cc0fd46/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.12.0] /home/panyou/.gradle/caches/transforms-4/dbd910929518f8d88634045b7af0864e/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/panyou/.gradle/caches/transforms-4/8a00dda3c084bb37c03e52a2e7a31133/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/panyou/.gradle/caches/transforms-4/3ddce1779402460c772b2f5577630895/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -66,12 +65,10 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /home/panyou/.gradle/caches/tra
 MERGED from [androidx.customview:customview:1.1.0] /home/panyou/.gradle/caches/transforms-4/33351f603b013b242e73f77845512fb4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.autofill:autofill:1.0.0] /home/panyou/.gradle/caches/transforms-4/f803aeab4759404cf4b60ab40802de37/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.13.1] /home/panyou/.gradle/caches/transforms-4/1d546fb3bffddf813509ee9ac6b3c291/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
-MERGED from [com.google.ai.client.generativeai:common:0.8.0] /home/panyou/.gradle/caches/transforms-4/502188d30009cf581dfd8c7038e9fad5/transformed/jetified-common-0.8.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/panyou/.gradle/caches/transforms-4/1fda371d33df0b3131c4dec27039cb60/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.13.1] /home/panyou/.gradle/caches/transforms-4/253b59bdcb43e9f6265a018f6b4c0c21/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.room:room-runtime:2.6.1] /home/panyou/.gradle/caches/transforms-4/d6ba528954818e152a89c1517b5b901e/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.room:room-ktx:2.6.1] /home/panyou/.gradle/caches/transforms-4/2a723c3afd344f076151dfafc1628161/transformed/jetified-room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/panyou/.gradle/caches/transforms-4/d380d5e744741c6b5987af7e1bf4a8e1/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] /home/panyou/.gradle/caches/transforms-4/51bbd26431fea373eafd16b9a4d06e4e/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/panyou/.gradle/caches/transforms-4/0a42f240d875fa87e225a92311e49f72/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
@@ -82,6 +79,7 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/panyou/.gradle/caches/
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/panyou/.gradle/caches/transforms-4/36425d07833f297cf96254ec45f4a452/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/panyou/.gradle/caches/transforms-4/e9b7c629778ecf6f98bf25c7783be2bd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/panyou/.gradle/caches/transforms-4/4580f00cedfbaf9cdac44f75426329e3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/panyou/.gradle/caches/transforms-4/02a2ce85a882aa39a4b549ff5125afb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/panyou/.gradle/caches/transforms-4/e29db0794423dd3c9af289fcabcbd0db/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/panyou/.gradle/caches/transforms-4/cc3ed7a9d639cd4d62d4e440c1ca33b3/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -100,10 +98,6 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /home/panyou/.gradle/cach
 		ADDED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /home/panyou/.gradle/caches/transforms-4/42e806ae9323428241c003995cc0fd46/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /home/panyou/.gradle/caches/transforms-4/42e806ae9323428241c003995cc0fd46/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:common:0.8.0] /home/panyou/.gradle/caches/transforms-4/502188d30009cf581dfd8c7038e9fad5/transformed/jetified-common-0.8.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:common:0.8.0] /home/panyou/.gradle/caches/transforms-4/502188d30009cf581dfd8c7038e9fad5/transformed/jetified-common-0.8.0/AndroidManifest.xml:22:5-67
 	android:name
 		ADDED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml:5:22-64
 application
@@ -121,10 +115,10 @@ MERGED from [androidx.core:core:1.13.1] /home/panyou/.gradle/caches/transforms-4
 MERGED from [androidx.core:core:1.13.1] /home/panyou/.gradle/caches/transforms-4/1d546fb3bffddf813509ee9ac6b3c291/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
 MERGED from [androidx.room:room-runtime:2.6.1] /home/panyou/.gradle/caches/transforms-4/d6ba528954818e152a89c1517b5b901e/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.1] /home/panyou/.gradle/caches/transforms-4/d6ba528954818e152a89c1517b5b901e/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/panyou/.gradle/caches/transforms-4/e9b7c629778ecf6f98bf25c7783be2bd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/panyou/.gradle/caches/transforms-4/e9b7c629778ecf6f98bf25c7783be2bd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/panyou/.gradle/caches/transforms-4/02a2ce85a882aa39a4b549ff5125afb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/panyou/.gradle/caches/transforms-4/02a2ce85a882aa39a4b549ff5125afb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
@@ -175,8 +169,6 @@ uses-sdk
 INJECTED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml
 INJECTED from /home/panyou/.openclaw/workspace/projects/FocusFlow/app/src/main/AndroidManifest.xml
-MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /home/panyou/.gradle/caches/transforms-4/42e806ae9323428241c003995cc0fd46/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /home/panyou/.gradle/caches/transforms-4/42e806ae9323428241c003995cc0fd46/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] /home/panyou/.gradle/caches/transforms-4/dbd910929518f8d88634045b7af0864e/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] /home/panyou/.gradle/caches/transforms-4/dbd910929518f8d88634045b7af0864e/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/panyou/.gradle/caches/transforms-4/8a00dda3c084bb37c03e52a2e7a31133/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
@@ -299,8 +291,6 @@ MERGED from [androidx.autofill:autofill:1.0.0] /home/panyou/.gradle/caches/trans
 MERGED from [androidx.autofill:autofill:1.0.0] /home/panyou/.gradle/caches/transforms-4/f803aeab4759404cf4b60ab40802de37/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.13.1] /home/panyou/.gradle/caches/transforms-4/1d546fb3bffddf813509ee9ac6b3c291/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] /home/panyou/.gradle/caches/transforms-4/1d546fb3bffddf813509ee9ac6b3c291/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:common:0.8.0] /home/panyou/.gradle/caches/transforms-4/502188d30009cf581dfd8c7038e9fad5/transformed/jetified-common-0.8.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:common:0.8.0] /home/panyou/.gradle/caches/transforms-4/502188d30009cf581dfd8c7038e9fad5/transformed/jetified-common-0.8.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/panyou/.gradle/caches/transforms-4/1fda371d33df0b3131c4dec27039cb60/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/panyou/.gradle/caches/transforms-4/1fda371d33df0b3131c4dec27039cb60/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.13.1] /home/panyou/.gradle/caches/transforms-4/253b59bdcb43e9f6265a018f6b4c0c21/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
@@ -309,8 +299,6 @@ MERGED from [androidx.room:room-runtime:2.6.1] /home/panyou/.gradle/caches/trans
 MERGED from [androidx.room:room-runtime:2.6.1] /home/panyou/.gradle/caches/transforms-4/d6ba528954818e152a89c1517b5b901e/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] /home/panyou/.gradle/caches/transforms-4/2a723c3afd344f076151dfafc1628161/transformed/jetified-room-ktx-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] /home/panyou/.gradle/caches/transforms-4/2a723c3afd344f076151dfafc1628161/transformed/jetified-room-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/panyou/.gradle/caches/transforms-4/d380d5e744741c6b5987af7e1bf4a8e1/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/panyou/.gradle/caches/transforms-4/d380d5e744741c6b5987af7e1bf4a8e1/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] /home/panyou/.gradle/caches/transforms-4/51bbd26431fea373eafd16b9a4d06e4e/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
@@ -331,6 +319,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/panyo
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/panyou/.gradle/caches/transforms-4/e9b7c629778ecf6f98bf25c7783be2bd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/panyou/.gradle/caches/transforms-4/4580f00cedfbaf9cdac44f75426329e3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/panyou/.gradle/caches/transforms-4/4580f00cedfbaf9cdac44f75426329e3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/panyou/.gradle/caches/transforms-4/b7a41bc62e9302141e16bf4683a82a5c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/panyou/.gradle/caches/transforms-4/02a2ce85a882aa39a4b549ff5125afb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/panyou/.gradle/caches/transforms-4/02a2ce85a882aa39a4b549ff5125afb4/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/panyou/.gradle/caches/transforms-4/e29db0794423dd3c9af289fcabcbd0db/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41

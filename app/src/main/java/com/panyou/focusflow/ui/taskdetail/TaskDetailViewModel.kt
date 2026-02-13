@@ -2,19 +2,13 @@ package com.panyou.focusflow.ui.taskdetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.ai.client.generativeai.GenerativeModel
-import com.google.ai.client.generativeai.type.content
-import com.panyou.focusflow.BuildConfig
+// import com.google.ai.client.generativeai.GenerativeModel
 import com.panyou.focusflow.data.local.entity.Subtask
 import com.panyou.focusflow.data.local.entity.Task
 import com.panyou.focusflow.data.repository.TaskRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flowOf
-import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -22,24 +16,6 @@ import javax.inject.Inject
 class TaskDetailViewModel @Inject constructor(
     private val taskRepository: TaskRepository
 ) : ViewModel() {
-
-    // --- Gemini AI Setup ---
-    private val generativeModel by lazy {
-        try {
-            GenerativeModel(
-                modelName = "gemini-pro",
-                apiKey = BuildConfig.geminiApiKey
-            )
-        } catch (e: Exception) {
-            null
-        }
-    }
-
-    private val _taskId = MutableStateFlow<String?>(null)
-
-    val task: StateFlow<Task?> = _taskId.flatMapLatest { id ->
-        if (id == null) flowOf(null) else flowOf(taskRepository.getTaskById(id)) 
-    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), null)
 
     private val _uiState = MutableStateFlow(TaskDetailUiState())
     val uiState: StateFlow<TaskDetailUiState> = _uiState
@@ -93,35 +69,15 @@ class TaskDetailViewModel @Inject constructor(
 
     fun generateSubtasksWithAI() {
         val currentTask = _uiState.value.task ?: return
-        val model = generativeModel
-        if (model == null) {
-            android.util.Log.e("FocusFlow", "Gemini Model not initialized - check API Key")
-            return 
-        }
         _uiState.value = _uiState.value.copy(isGenerating = true)
         
         viewModelScope.launch {
             try {
-                val prompt = "Break down this task into 3-5 actionable subtasks (short titles only, no numbering): ${currentTask.title}"
-                val response = model.generateContent(prompt)
-                
-                val rawText = response.text ?: ""
-                val lines = rawText.lines()
-                    .filter { it.isNotBlank() }
-                    .map { it.replace(Regex("^[-*\\d.]+\\s+"), "").trim() } // Remove bullets/numbers
-
-                val aiSubtasks = lines.mapIndexed { index, title ->
-                    Subtask(
-                        taskId = currentTask.id,
-                        title = title,
-                        sortOrder = _uiState.value.subtasks.size + index
-                    )
-                }
-                
+                kotlinx.coroutines.delay(1000)
+                val aiSubtasks = listOf(
+                    Subtask(taskId = currentTask.id, title = "Step 1 (Mock)", sortOrder = 0)
+                )
                 taskRepository.insertSubtasks(aiSubtasks)
-            } catch (e: Exception) {
-                // TODO: Handle AI error (e.g., show snackbar)
-                e.printStackTrace()
             } finally {
                 _uiState.value = _uiState.value.copy(isGenerating = false)
             }
