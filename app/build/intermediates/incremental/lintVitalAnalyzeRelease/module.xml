@@ -7,7 +7,7 @@
     agpVersion="8.4.0"
     buildFolder="build"
     bootClassPath="/home/panyou/.openclaw/workspace/android-sdk/platforms/android-34/android.jar:/home/panyou/.openclaw/workspace/android-sdk/build-tools/34.0.0/core-lambda-stubs.jar"
-    javaSourceLevel="1.8"
+    javaSourceLevel="17"
     compileTarget="android-34"
     neverShrinking="true">
   <lintOptions

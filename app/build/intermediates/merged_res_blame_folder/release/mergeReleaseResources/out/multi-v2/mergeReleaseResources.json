@@ -3182,10 +3182,10 @@
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "121",
+                        "startOffsets": "97",
                         "endLines": "6",
                         "endColumns": "12",
-                        "endOffsets": "370"
+                        "endOffsets": "346"
                     },
                     "to": {
                         "startLines": "6409",
